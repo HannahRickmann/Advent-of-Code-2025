@@ -19,5 +19,4 @@ __pycache__/
 *.tmp
 
 # Input and output files
-day*/*input.txt
-day*/*output.txt
+day*/input.txt

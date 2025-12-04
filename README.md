@@ -30,15 +30,15 @@ The solutions are organized in separate folders for each day:
 ```text
 .
 ├─ day01/
-│  ├─ input.txt
+│  ├─ input.txt  # from Advent of Code (not committed)
 │  ├─ toy-input.txt
 │  └─ solution.py
 ├─ day02/
-│  ├─ input.txt
+│  ├─ input.txt  # from Advent of Code (not committed)
 │  ├─ toy-input.txt
 │  └─ solution.py
 ...
-├─ venv/        # virtuelle Umgebung (nicht committed)
+├─ venv/        # virtual environment (not committed to repo)
 └─ README.md
 ```
 
@@ -47,6 +47,8 @@ Each day has:
 - input.txt (from Advent of Code)
 - toy-input.txt (as example input for testing)
 - solution.py (my solution)
+
+The input files are not included in the repository, since Advent of Code inputs are personalized.
 
 ## 🚀 Running the Solutions
 
