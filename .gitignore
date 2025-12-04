@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE & editor files
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+
+# Logs, temporary files
+*.log
+*.tmp
+
+# Input and output files
+day*/*input.txt
+day*/*output.txt
