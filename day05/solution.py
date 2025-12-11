@@ -12,15 +12,15 @@ with open("day05/input.txt", "r", encoding="utf-8") as f:
     for line in f:
         line = line.strip()
         
-        # Wenn die Zeile leer ist -> Teilung merken
+        # Detect blank line separating the two sections
         if line == "":
             before_blank = False
             continue
-        
-        # Vor der Leerzeile in list1, danach in list2
+
+        # If we are still in the first section, parse ID ranges
         if before_blank:
             id_ranges.append([int(part) for part in line.split('-')])
-        else:
+        else:  # In the second section, parse available IDs
             available_ids.append(int(line))
 
 # ------------------ Part 1 ------------------
