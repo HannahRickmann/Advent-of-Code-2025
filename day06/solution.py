@@ -1,4 +1,4 @@
-# Advent of Code - Day 6 Solution
+# Advent of Code 2025 - Day 6
 # Reads four lines of numbers and one line of operators from 'day06/input.txt'.
 # Each number line contains space-separated integers.
 # The operator line contains space-separated operators ('+' or '*').
